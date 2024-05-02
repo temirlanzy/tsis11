@@ -2,10 +2,10 @@ import psycopg2
 
 # Establish connection
 conn = psycopg2.connect(
-    host="localhost",
-    database="postgres",
-    user="postgres",
-    password="JusticeForSaltanat"
+    host="lhost",
+    database="sql",
+    user="human",
+    password="12345"
 )
 
 cur = conn.cursor()
